@@ -3,18 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <title>il mio sito </title>
-</head>
+</head><style>
+  button {
+    padding: 15px 30px; /* Aumenta lo spazio interno intorno al testo */
+    font-size: 18px; /* Aumenta la dimensione del testo */
+  }
+</style>
+
 <body>
   <h1>Ciao!👋</h1>
   <p>Questo è il mio primo sito web gratis su GitHub Pages. sono emozionato!!</p>
 </body>
 </html>
 <!-- Nel tuo index.html -->
-<p id="saluto">Ciao!</p>
-<button style="width: 150px; height: 50px; font-size: 20px;">Cliccami. <button onclick="cambiaTesto()">no non farlo!!</button>
+<p id="saluto">CLICCA IL PULSANTE!</p>
+<button onclick="cambiaTesto()">NO NON FARLO🥺!!</button>
 
 <script>
   function cambiaTesto() {
-    document.getElementById("saluto").textContent = "Perche l?hai fatto?!";
+    document.getElementById("saluto").textContent = "Perchè l'hai fatto?!";
   }
 </script>

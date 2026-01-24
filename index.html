@@ -9,3 +9,12 @@
   <p>Questo è il mio primo sito web gratis su GitHub Pages. sono emozionato!!</p>
 </body>
 </html>
+<!-- Nel tuo index.html -->
+<p id="saluto">Ciao mondo!</p>
+<button onclick="cambiaTesto()">Cliccami</button>
+
+<script>
+  function cambiaTesto() {
+    document.getElementById("saluto").textContent = "Testo cambiato!";
+  }
+</script>

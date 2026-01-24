@@ -3,25 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <title>Il mio primo sito</title>
-</head><style>
-  button{
-    padding: 20px 40px;
-    font-size: 23PX
-    Background color: #00FF00;
-    color:white;
-  } 
-</style>
+  <style>
+    button {
+      padding: 20px 40px;
+      font-size: 23px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
 <body>
   <h1>Ciao! 👋</h1>
-  <p>Questo è il mio primo sito web gratis.Sono emozionato!!</p>
+  <p>Questo è il mio primo sito web gratis. Sono emozionato!!</p>
+
+  <!-- Pulsante e testo -->
+  <p id="saluto">CLICCA IL PULSANTE!!</p>
+  <button onclick="cambiaTesto()">NO NON FARLO🥺</button>
+
+  <script>
+    function cambiaTesto() {
+      document.getElementById("saluto").textContent = "Perchè l'hai fatto!?";
+    }
+  </script>
 </body>
 </html>
-<!-- Nel tuo index.html -->
-<p id="saluto">CLICCA IL PULSANTE!!</p>
-<button al clic="cambiaTesto()">NO NON FARLO🥺</button>
 
-<script>
-  function cambiatesto(){
-    document.getElementById("saluto").textContent= "Perchè l'hai fatto!?";
-  } 
-</script>

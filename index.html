@@ -11,6 +11,17 @@
       color: white;
       border: none;
       cursor: pointer;
+      transition: transform 0.2s;
+    }
+
+    /* Effetto "salto" quando cliccato */
+    button:active {
+      transform: scale(1.1);
+    }
+
+    /* Transizione testo */
+    #saluto {
+      transition: color 0.5s, font-size 0.5s;
     }
   </style>
 </head>
@@ -23,8 +34,12 @@
 
   <script>
     function cambiaTesto() {
-      document.getElementById("saluto").textContent = "Perchè l'hai fatto!?";
+      const saluto = document.getElementById("saluto");
+      saluto.textContent = "Perchè l'hai fatto!?";
+      saluto.style.color = "#FF0000";   // cambia colore in rosso
+      saluto.style.fontSize = "28px";   // ingrandisce il testo
     }
   </script>
 </body>
 </html>
+

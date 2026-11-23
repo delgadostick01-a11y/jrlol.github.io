@@ -1,1 +1,65 @@
+<!DOCTYPE html>
+<html lang="it">
 
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>SEBA GRILLZ</title>
+</head>
+
+<body>
+
+    <h1>SEBASGRILLZ</h1>
+    <div class="footer-contatti">
+        <div class="colonna">
+            <a href="https://www.instagram.com/sebasgrillz/" target="_blank">@sebasgrillz</a>
+        </div>
+        <div class="colonna bordo-laterale">
+            📍 MILANO
+        </div>
+        <div class="colonna">
+            PER MAGGIORI INFO IN DM 
+        </div>
+    </div>
+    <!-- PRODOTTO 1 -->
+    <div class="prodotto">
+        <img src="C:\Users\user\Pictures\Screenshot_20261123_183941_Instagram.jpg" alt="Un dente in cromo-cobalto">
+        <div class="testo-prodotto">
+            <h2>UN DENTE IN CROMO-COBALTO</h2>
+            <p><del>60.00€</del> <strong>50€</strong></p>
+        </div>
+    </div>
+
+    <!-- PRODOTTO 2 -->
+    <div class="prodotto">
+        <img src="C:\Users\user\Pictures\2.jpg" alt="Due denti in cromo-cobalto">
+        <div class="testo-prodotto">
+            <h2>DUE DENTI IN CROMO-COBALTO</h2>
+            <p><del>90.00€</del> <strong>80€</strong></p>
+        </div>
+    </div>
+
+    <!-- PRODOTTO 3 -->
+    <div class="prodotto">
+        <img src="C:\Users\user\Pictures\3.jpg" alt="Tre denti in cromo-cobalto">
+        <div class="testo-prodotto">
+            <h2>TRE DENTI IN CROMO-COBALTO</h2>
+            <p><del>120.00€</del> <strong>110€</strong></p>
+        </div>
+    </div>
+
+    <!-- PRODOTTO 4 -->
+    <div class="prodotto">
+        <img src="C:\Users\user\Pictures\4.jpg" alt="Quattro denti in cromo-cobalto">
+        <div class="testo-prodotto">
+            <h2>QUATTRO DENTI IN CROMO-COBALTO</h2>
+            <p><del>140.00€</del> <strong>130€</strong></p>
+        </div>
+    </div>
+
+    <!-- BARRA CONTATTI IN BASSO -->
+
+
+</body>
+
+</html>    
